@@ -36,7 +36,7 @@ const likesCount = document.getElementById("likes-count")
 const postImg = document.getElementById("post-vangogh")
 
 likeButton.addEventListener("click", function() {
-    likesCount.innerHTML = "21,493 likes"
+    likesCount.innerHTML = "22 likes"
 })
 
 postImg.addEventListener("dblclick", function() {
