@@ -84,3 +84,7 @@ button img:hover {
 .comments p {
     margin: 0.25rem 0;
 }
+
+.post {
+    border-bottom: 2rem solid #eee;
+}
