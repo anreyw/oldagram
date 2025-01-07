@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-style: 400;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-bottom: 2px solid #c6c6c6;
+}
+
+#logo {
+    width: 8rem;
+}
+
+
+.avatar {
+    width: 3rem;
+    border-radius: 100%;
+}
+
+.post-img {
+    width: 100%;
+    display: block;
+}
+
+button {
+    background: white;
+    border: none;
+}
+
+button img {
+    height: 1.5rem;
+}
+
+button img:hover {
+    opacity: 50%;
+}
+
+.post-head {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.user-name, .user-location {
+    margin: 0;
+    padding: 0;
+}
+
+.user-name {
+    font-size: 1rem
+}
+
+.user-location {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.likes {
+    font-weight: 700;
+    margin: 0 1rem;
+}
+
+.button-panel {
+    padding: 0.825rem 0.825rem 0;
+}
+
+.comments {
+    margin: 0 1rem;
+}
+
+.commentator {
+    font-weight: 700;
+}
+
+.comments p {
+    margin: 0.25rem 0;
+}
